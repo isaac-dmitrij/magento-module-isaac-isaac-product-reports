@@ -26,7 +26,7 @@ This module can be installed in various ways: via modman, composer or manually.
 1. Install [modman](https://github.com/colinmollenhour/modman)
 2. Execute the following command from your Magento installation folder:
 ```sh
-modman clone https://git.isaac.nl/rhodecode/magento-module-isaac-product-reports
+modman clone git@github.com:isaac-dmitrij/magento-module-isaac-isaac-product-reports.git
 ```
 
 #### Composer
@@ -43,7 +43,7 @@ modman clone https://git.isaac.nl/rhodecode/magento-module-isaac-product-reports
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://git.isaac.nl/rhodecode/magento-module-isaac-product-reports"
+            "url": "git@github.com:isaac-dmitrij/magento-module-isaac-isaac-product-reports.git"
         }
     ],
     "extra":{
